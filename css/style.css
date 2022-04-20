@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    background-color: #4ea0ff;
+
+}
+
+.banner{
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+}
+
+#logo{
+    width: 350px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    
+}
