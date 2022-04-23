@@ -35,11 +35,17 @@ header{
     margin: 20px 30px;
     background-color: white;
     background-size: contain;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 h1{
-    font-size: 45px;
+    font-size: 43px;
+    font-family: sans-serif;
+}
+
+h1:hover{
+    text-decoration: underline;
+    color: #20a9e5;
 }
 
 .crediti{
@@ -74,6 +80,10 @@ h1{
 }
 
 .highlighted{
+    text-decoration: underline;
+}
+
+.highlighted:hover{
     background-color: yellow;
 }
 
