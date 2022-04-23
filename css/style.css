@@ -3,20 +3,26 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
+    
+}
+
+body{
+    background-color: #b1e5f2;
 }
 /* header */
 header{
-    background-color: #4ea0ff;
+    background-color: #20a9e5;
 
 }
 
 .banner{
     background-image: url(../img/pattern.png);
     background-repeat: repeat;
+    padding-left: 15px;
 }
 
 #logo{
-    width: 350px;
+    width: 250px;
     margin-top: 70px;
     margin-bottom: 10px;
     margin-left: 15px;
@@ -25,7 +31,11 @@ header{
 
 /* main */
 .container{
-    margin-left: 14px;
+    padding: 30px 30px;
+    margin: 20px 30px;
+    background-color: white;
+    background-size: contain;
+    border-radius: 10px;
 }
 
 h1{
@@ -34,19 +44,28 @@ h1{
 
 .crediti{
     color: gray;
+    font-style: italic;
 }
 
 #author{
     color:#4ea0ff;
+    font-weight: bold;
 }
 
 .data{
     font-size: 10px;
     color: gray;
+    margin-bottom: 5px;
+}
+
+.art-img{
+    width: 368px;
+    height: 239px;
 }
 
 .caption{
     font-size: 12px;
+    color: gray;
 }
 
 .article{
@@ -66,6 +85,7 @@ h1{
 table{
     margin-top: 20px;
     margin-bottom: 20px;
+    border-collapse: collapse;
 
 }
 
@@ -100,24 +120,32 @@ h3{
     color: gray;
 }
 
+.foot-article{
+    margin-right: 100px;
+}
+
 #secondo-art{
     color: white;
     margin-top: 25px;
+    margin-right: 25px;
     padding: 10px;
     background-image: url(../img/monitor.jpg);
-    width: 450px;
-    height:350px;
+    width: 260px;
+    height:200px;
     background-size: cover;
+    display: inline-block;
     
 }
 
 #terzo-art{
     color: white;
     padding: 10px;
-    margin-top: 25px;;
+    margin-top: 25px;
+    margin-right: 25px;
     background-image: url(../img/graph.jpg);
-    width: 450px;
-    height:350px;
+    width: 260px;
+    height:200px;
     background-size: cover;
+    display: inline-block;
     
 }
